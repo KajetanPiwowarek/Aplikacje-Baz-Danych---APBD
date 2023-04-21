@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = tmp_kolos_02
+build_property.ProjectDir = C:\Users\Kajtek\Desktop\APBD\tmp_kolos_02\APBD_przykladowe_kolokwium_02\tmp_kolos_02\tmp_kolos_02\

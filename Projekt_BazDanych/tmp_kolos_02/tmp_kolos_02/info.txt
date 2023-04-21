@@ -1,0 +1,26 @@
+EntityFrameworkCore -> 5.0.16
+EntityFrameworkCore.SqlServer -> 5.0.16
+EntityFrameworkCore.Tools -> 5.0.16
+
+1.Entities
+2.Context
+
+appsettings ->
+"ConnectionStrings": {
+    "DbConn": "Data Source=db-mssql;Initial Catalog=2019SBD;Integrated Security=True"
+  }
+
+Startup ->
+services.AddDbContext<_2019SBDContext>(opt =>
+            {
+                opt.UseSqlServer(Configuration.GetConnectionString("DbConn"));
+            });
+
+3.Configurations
+
+Tools -> NuGet Package Manager -> Package Manager Console
+PM> Add-Migration AddedCFTables
+PM> c
+
+
+Jak jest coś nullable to dodajemy znak zapytania do typu np. int?
